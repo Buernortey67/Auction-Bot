@@ -68,7 +68,7 @@ class AuctionBot:
             # Pause before next bid to simulate realistic timing
             time.sleep(random.uniform(1, 3))
 
-# Example usage:
-if __name__ == "__main__":
-    bot = AuctionBot(starting_budget=1000)  # Start bot with a budget of 1000 units
-    bot.participate_in_auction()
+# # Example usage:
+# if __name__ == "__main__":
+#     bot = AuctionBot(starting_budget=1000)  # Start bot with a budget of 1000 units
+#     bot.participate_in_auction()
